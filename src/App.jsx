@@ -1,6 +1,6 @@
 import './App.css'
-import './styles/Components/Login.css'
-import './styles/General/General.css'
+import './Styles/Components/Login.css'
+import './Styles/General/General.css'
 import AppRouter from './App/AppRouter'
 import { ToastContainer } from 'react-toastify'
 
