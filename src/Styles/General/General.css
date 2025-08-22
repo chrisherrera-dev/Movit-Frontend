@@ -1,0 +1,23 @@
+.input-default {
+    @apply border-gray-300 w-full border-2 rounded-2xl p-2 pl-10 mb-3 focus:border-border_input focus:outline-none;
+}
+
+.center-horizontal{
+    @apply flex justify-center items-center;
+}
+
+.col-center{
+    @apply flex flex-col justify-center items-center;
+}
+
+.col-around{
+    @apply flex flex-col justify-around items-center;
+}
+
+.responsive-text{
+    @apply text-sm lg:text-base 3xl:text-lg;
+}
+
+.button-default {
+    @apply bg-success rounded-3xl mb-5 text-white font-bold hover:bg-green-600 transition duration-200;
+}
